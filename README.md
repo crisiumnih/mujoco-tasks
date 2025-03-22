@@ -69,6 +69,8 @@ data.ctrl[:] = np.random.uniform(-1, 1, size=model.nu)
 ### **Simulation Output:**
 ![Multiple ants](assets/2.gif)
 
+![Multiple humanoids](assets/4.gif)
+
 ## Task 3: Training a PPO Policy for the Ant Robot in Brax
 The Ant robot is trained using Brax's Proximal Policy Optimization (PPO) implementation. The training runs in a parallelized environment using JAX for hardware acceleration.
 
