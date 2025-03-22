@@ -1,4 +1,17 @@
-# README
+# MuJoCo-Brax Tasks for PAL Robotics
+
+### Package Management with UV
+
+This project uses `UV` as the package manager instead of `pip`.
+
+- **Installing Dependencies:**
+```bash
+uv pip install [dependency]
+```
+- **Running the file**
+```bash
+uv run 1_create_ant.py
+```
 
 ## Task 1: Simulating the Ant Robot in MuJoCo
 Using MuJoCo, a simulation of the Ant robot is created, applying random controls to its joints and rendering it in `mujoco.viewer`.
